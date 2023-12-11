@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+header {
+  margin-bottom: 100px;
+
+  background-color: #1c83f9;
+  color: white;
+  border-radius: 0 0 70px 70px;
+ 
+}
+
+body{
+    background-color: #112ebe;
+}
+
+main{
+    background-color: #e0f68f;
+}
+
+
+
+main h1{
+    background-color: #a2a232;
+}
+
+header h1 {
+  margin-bottom: 23px;
+}
+
+.parent {
+  display: flex;
+  justify-content:space-around;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.parent li a {
+  color: #fff;
+  text-decoration: none;
+
+  margin-top: 6px;
+  display: inline-block;
+}
+
+.parent li a:hover {
+  border-bottom: 2px solid red;
+  font-size: 20px;
+}
+
+.mode {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 0;
+
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: blue;
+  color: #fff;
+  border-radius: 17px;
+
+  padding: 15px;
+}
+
+section {
+  margin-bottom: 100px;
+  box-shadow: 5px 5px 25px rgb(52, 2, 249);
+
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 13px;
+
+  padding: 45px 0;
+}
+
+.left-section,
+.right-section {
+  width: 49%;
+
+  text-align: center;
+  margin-top: 60px;
+}
+
+.left-section h3 {
+  font-size: 26px;
+  margin: 20px 0;
+}
+
+.left-section p {
+  font-size: 20px;
+  margin: 25px 0;
+}
+
+.facebook,
+.youtube {
+  background-color: royalblue;
+  color: #fff;
+  margin: 10px;
+  padding: 8px 16px;
+  border-radius: 6px;
+
+  text-decoration: none;
+}
+
+.youtube {
+  background-color: rgb(255, 62, 62);
+}
+
+.my-img {
+  border-radius: 50%; /* to e circular */
+  width: 200px;
+  height:200px;
+
+  border-right: 5px solid #ff8a00;
+  border-left: 5px solid #ff8a00;
+  border-bottom: 5px solid #e52e71;
+  border-top: 4px solid #e52e71;
+
+}
+
+article h5 {
+  font-size: 39px;
+  font-weight: 500;
+  font-family: "Sacramento", cursive;
+  margin-top: 10px;
+}
+
+.para {
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  color:#fff
+}
+
+.design {
+  background-color: #3d4a59;
+  color: white;
+  padding: 15px;
+  text-align: center;
+
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  margin-bottom: 0;
+}
+
+.follow {
+  box-shadow: 10px 10px 30px 4 rgba(11, 3, 242, 0.90);
+  border-radius: 10px;
+  padding: 16px 0;
+  text-align: center;
+  margin: 0 auto 10px;
+  border-top: 6px solid #0674f1;
+
+  opacity: 0.9;
+  width: 99%;
+}
+
+.follow a {
+  border: 1px solid #75aeef;
+  border-radius: 4px;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+
+.follow a:hover {
+  padding: 5px 12px;
+  background-color: rgb(16, 73, 243);
+  color: #fff;
+}
+
+
+.mycard{
+  margin-top: 50px;
+  border-radius: 20px;
+  width:30%;
+  
+}
+
+
+
+
+.container{
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 60%;
+  text-align: center;
+  padding: 20px 0;
+}
+.container p{
+  font-size: 20px;
+}
+
+.active{
+  display: block !important;
+}
+
+.bigger-contaier{
+  background-color: rgb(221, 185, 185);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+}
+
+/* ................. */
+
+#big_container{
+    background-color: #e0f68f;
+    display: none;
+    position:fixed;
+    top:0;
+    bottom: 0;
+    right:0;
+    left:0;
+}
+
+#container{
+    border:5px dotted blue;
+    background-color: #1c83f9;
+    text-align: center;
+    margin:50px;
+    padding:20px;
+}
+
+.active{
+    display:block;
+}
+
+#dele{
+    border:5px double rgb(140, 132, 15);
+    background-color: #e3fc57;
+    color:#112ebe;
+    font-size: large;
+    text-align: center;
+    margin:50px;
+    padding:20px;
+}
+
+
+#mode{
+    color:#fff;
+    background-color: #cf9608;
+}
+
+.dark{
+    color:#fff;
+    background-color:rgb(48, 47, 47);
+}
+
+.dark div{
+    color:#fff;
+    background-color:rgb(90, 89, 89);
+}
+
+.dark a, .dark footer, .dark header{
+    color:#fff;
+    background-color:rgb(46, 46, 46);
+    border:2px solid white;
+}
+
+.dark h1{
+    color:#fff;
+    background-color:rgb(83, 82, 82);
+    border:2px solid white;    
+}
+
