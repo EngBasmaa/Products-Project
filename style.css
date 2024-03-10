@@ -2,7 +2,6 @@
   margin: 0;
   font-family: sans-serif;
 }
-           
 
 header {
   margin-bottom: 100px;
@@ -10,35 +9,36 @@ header {
   background-color: #1c83f9;
   color: white;
   border-radius: 0 0 70px 70px;
- 
 }
 
-body{
-    background-color: #112ebe;
+body {
+  background-color: #112ebe;
 }
 
-main{
-    background-color: #e0f68f;
+main {
+  background-color: #e0f68f;
 }
 
-
-
-main h1{
-    background-color: #a2a232;
+main h1 {
+  background-color: #a2a232;
 }
 
 header h1 {
   margin-bottom: 23px;
 }
 
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
 .parent {
   display: flex;
-  justify-content:space-around;
-  padding-bottom: 20px;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-right: 10px;
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
+  border-radius: 5%;
 }
 
 li a {
@@ -60,11 +60,10 @@ li a {
   padding: 5px 10px;
 }
 
-ul{
-    display: flex;
-    justify-content: space-around;
-    color:white;
-    
+ul {
+  display: flex;
+  justify-content: space-around;
+  color: white;
 }
 
 li {
@@ -135,13 +134,12 @@ section {
 .my-img {
   border-radius: 50%; /* to e circular */
   width: 200px;
-  height:200px;
+  height: 200px;
 
   border-right: 5px solid #ff8a00;
   border-left: 5px solid #ff8a00;
   border-bottom: 5px solid #e52e71;
   border-top: 4px solid #e52e71;
-
 }
 
 article h5 {
@@ -165,7 +163,7 @@ article h5 {
 
 footer {
   text-align: center;
-  color:#fff
+  color: #fff;
 }
 
 .design {
@@ -180,7 +178,7 @@ footer {
 }
 
 .follow {
-  box-shadow: 10px 10px 30px 4 rgba(11, 3, 242, 0.90);
+  box-shadow: 10px 10px 30px 4 rgba(11, 3, 242, 0.9);
   border-radius: 10px;
   padding: 16px 0;
   text-align: center;
@@ -204,18 +202,25 @@ footer {
   color: #fff;
 }
 
-
-.mycard{
+.mycard {
   margin-top: 50px;
   border-radius: 20px;
-  width:30%;
-  
+  width: 30%;
+  /* box-shadow: 20px 20px 20px 5px #e7f942; */
+  box-shadow: 20px 20px 5px #e7f942, -20px -20px 5px #e7f942,
+    20px -20px 5px #e7f942, -20px 20px 5px #e7f942;
+  text-align: center;
 }
 
+.card-img-top {
+  border: 10px solid rgb(54, 54, 242);
+  border-radius: 20%;
+  /* box-shadow: 20px 20px 20px 5px #3d4a59; */
+  box-shadow: 20px 20px 5px #e7f942, -20px -20px 5px #4263f9,
+    20px -20px 5px #4263f9, -20px 20px 5px #4263f9;
+}
 
-
-
-.container{
+.container {
   margin-top: 50px;
   background-color: #fff;
   border-radius: 12px;
@@ -223,15 +228,15 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
-.container p{
+.container p {
   font-size: 20px;
 }
 
-.active{
+.active {
   display: block !important;
 }
 
-.bigger-contaier{
+.bigger-contaier {
   background-color: rgb(221, 185, 185);
   position: fixed;
   top: 0;
@@ -243,63 +248,63 @@ footer {
 
 /* ................. */
 
-#big_container{
-    background-color: #e0f68f;
-    display: none;
-    position:fixed;
-    top:0;
-    bottom: 0;
-    right:0;
-    left:0;
+#big_container {
+  background-color: #e0f68f;
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-#container{
-    border:5px dotted blue;
-    background-color: #1c83f9;
-    text-align: center;
-    margin:50px;
-    padding:20px;
+#container {
+  border: 5px dotted blue;
+  background-color: #1c83f9;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
 }
 
-.active{
-    display:block;
+.active {
+  display: block;
 }
 
-#dele{
-    border:5px double rgb(140, 132, 15);
-    background-color: #e3fc57;
-    color:#112ebe;
-    font-size: large;
-    text-align: center;
-    margin:50px;
-    padding:20px;
+#dele {
+  border: 5px double rgb(140, 132, 15);
+  background-color: #e3fc57;
+  color: #112ebe;
+  font-size: large;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
 }
 
-
-#mode{
-    color:#fff;
-    background-color: #cf9608;
+#mode {
+  color: #fff;
+  background-color: #cf9608;
 }
 
-.dark{
-    color:#fff;
-    background-color:rgb(48, 47, 47);
+.dark {
+  color: #fff;
+  background-color: rgb(48, 47, 47);
 }
 
-.dark div{
-    color:#fff;
-    background-color:rgb(90, 89, 89);
+.dark div {
+  color: #fff;
+  background-color: rgb(90, 89, 89);
 }
 
-.dark a, .dark footer, .dark header{
-    color:#fff;
-    background-color:rgb(46, 46, 46);
-    border:2px solid white;
+.dark a,
+.dark footer,
+.dark header {
+  color: #fff;
+  background-color: rgb(46, 46, 46);
+  border: 2px solid white;
 }
 
-.dark h1{
-    color:#fff;
-    background-color:rgb(83, 82, 82);
-    border:2px solid white;    
+.dark h1 {
+  color: #fff;
+  background-color: rgb(83, 82, 82);
+  border: 2px solid white;
 }
-
